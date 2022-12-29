@@ -15,7 +15,30 @@
 <body>
 <h1>天空之城</h1>
 <h2>作者：吳睿航.</h2>
-<h3>早安呦</h3>
-<p></p>
+<h3 id="gm">早安呦</h3>
+<p id="demo">早安呦</p>
+
+<script>
+    function myFunction0() {
+        document.getElementById("gm").style.fontSize = "100px"; 
+        document.getElementById("gm").style.color = "white";
+        document.getElementById("gm").style.backgroundColor = "black"; 
+        }
+    function myFunction1() {
+        document.getElementById("demo").style.fontSize = "25px"; 
+        document.getElementById("demo").style.color = "red";
+        document.getElementById("demo").style.backgroundColor = "yellow";        
+    }
+    function myFunction2() {
+        document.getElementById("demo").style.fontSize = "100px"; 
+        document.getElementById("demo").style.color = "wild";
+        document.getElementById("demo").style.backgroundColor = "black";         
+    }
+    </script>
+    
+<button type="button0" onclick="myFunction0()">Click Me!</button>
+<button type="button1" onclick="myFunction1()">Click Me!</button>
+<button type="button2" onclick="myFunction2()">Click Me!</button>
+
 </body>
 </html>
